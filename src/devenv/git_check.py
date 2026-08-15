@@ -16,4 +16,4 @@ def get_git_identity():
     identity["user.name"] = git_config("user.name")
     identity["user.email"] = git_config("user.email")
     return identity 
-print(get_git_identity())
+# print(get_git_identity())
